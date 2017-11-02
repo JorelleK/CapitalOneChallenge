@@ -3,8 +3,8 @@ layout: default
 ---
 banner: /images/bridge.jpg
 <div>
-   #<img src=""{{ site.url }}/images/bridge.jpg" alt="github bridge" style="width:75%;" >
-   #<img src="{{ site.url }}/images/citysanfran.jpg" alt="citysanfran" style="width:75%;" >
+   <img src="{{ site.url }}/images/bridge.jpg" alt="github bridge" style="width:75%;" >
+   <img src="{{ site.url }}/images/citysanfran.jpg" alt="citysanfran" style="width:75%;" >
 </div>
 
 # Airbnb 
