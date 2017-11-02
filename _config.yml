@@ -1,1 +1,10 @@
-theme: jekyll-theme-slate
+# basic options
+title: WELCOME TO SAN FRANCISCO
+author: Jorelle Kebeto
+email: jorellekebeto@gmail.com
+description: Airbnb listings optimization
+github_username: jorellek
+
+# Build settings
+markdown: krandown
+theme: minima
