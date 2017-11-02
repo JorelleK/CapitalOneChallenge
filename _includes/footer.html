@@ -1,17 +1,33 @@
 <footer class="footer">
   
-   <div class="lockup">
-     
-     <div class="content-wrap">     
-       <nav>
-         {% for item in site.data.settings.menu %}
-            <a href="{{ item.url }} ">{{ item.name }}</a>
-         {% endfor %}     
-       </nav>
-            
-       <p class="copyright"> All content copyright {{ site.time | date: '%Y' }}</p>
+   <div class="container">
+     <div class="row">    
+       <div class="content-wrap"> 
+         <ul class="">
+   <li class="about-airbnb">
+      <a href="/about" ch-set-locale="">
+        <span class="text"> About Airbnb </span>
+      </a>
+   </li>
+   <li class="sitemap">
+       <a href="/sitemap" ch-set-locale="">
+         <span class="text">Sitemap</span>
+       </a>
+   </li>
+    <li class="best-rate">
+      <a href="/deals/best-rate" ch-set-locale="">
+        <span class="text">Best Rate</span>
+      </a>
+    </li>
+       <li class="help">
+         <a href="/support" ch-set-locale="">
+           <span class="text">Help</span>
+         </a>
+       </li>                                             
+           
+        <p class="copyright"> All content copyright {{ site.time | date: '%Y' }}</p>
+      </div>
      </div>
-     
   </div>
   
 </footer>
