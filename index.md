@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div>
-   <img src=""{{ site.url }}/images/bridge.jpg" alt="github bridge" style="width:20%;" >
-   <img src="{{ site.url }}/images/citysanfran.jpg" alt="citysanfran" style="width:20%;" >
+   <img src=""{{ site.url }}/images/bridge.jpg" alt="github bridge" style="width:75%;" >
+   <img src="{{ site.url }}/images/citysanfran.jpg" alt="citysanfran" style="width:75%;" >
 </div>
 
 # Airbnb 
