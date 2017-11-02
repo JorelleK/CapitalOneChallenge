@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div>
-   <img src=""{{ site.url }}/images/octocat.jpg" alt="github octocat" style="width:45%;" >
-   <img src="{{ site.url }}/images/jekyll.png" alt="jekyll icon" style="width:45%;" >
+   <img src=""{{ site.url }}/images/bridge.jpg" alt="github octocat" style="width:45%;" >
+   <img src="{{ site.url }}/images/citysanfran.jpg" alt="jekyll icon" style="width:45%;" >
 </div>
 
 # Airbnb 
